@@ -68,8 +68,8 @@ Las contribuciones son bienvenidas. Para contribuir:
 4. Envía un pull request.
 
 ## Licencia
-
 Este proyecto está bajo la licencia MIT.
+
 ---
 Este paquete facilita la automatización del análisis de geles de electroforesis, asegurando precisión en la detección de bandas y asignación de pesos moleculares. ¡Esperamos que sea de utilidad!
 
