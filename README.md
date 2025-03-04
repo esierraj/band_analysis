@@ -55,7 +55,7 @@ Para instalarlas:
 pip install -r requirements.txt
 ```
 
-### Contribuciones
+## Contribuciones
 
 Las contribuciones son bienvenidas. Para contribuir:
 
@@ -67,7 +67,7 @@ Las contribuciones son bienvenidas. Para contribuir:
 
 4. Envía un pull request.
 
-### Licencia
+## Licencia
 
 Este proyecto está bajo la licencia MIT.
 ---
