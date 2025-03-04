@@ -24,7 +24,7 @@ Cada función dentro del paquete está titulada con su propósito y contiene la 
 1. Descarga el archivo EG_analysis.py y colócalo en el mismo directorio que el script desde el cual deseas ejecutarlo.
 2. Importa el archivo en tu código y llama a la función deseada.
 
-El código puede probarse con la imagen del gel subida al repositorio llamada ![electro_gel_test](electro_gel_test.png).
+El código puede probarse con la imagen del gel subida al repositorio llamada [electro_gel_test](electro_gel_test.png).
 
 ### Ejemplo básico de uso:
 ```bash
