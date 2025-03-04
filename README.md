@@ -17,10 +17,15 @@ Este paquete en Python permite el análisis de imágenes de electroforesis en ge
 - `get_calib_param`: función para realizar una regresión cuadrática a partir de la distribución de bandas en el marcador de peso molecular.
 - `assign_mol_wei`: función para marcar cada banda con su peso molecular aproximado.
 
+Cada función dentro del paquete está titulada con su propósito y contiene la descripción de las variables de entrada y salida.
+
 ## Instalación y uso
 
 1. Descarga el archivo EG_analysis.py y colócalo en el mismo directorio que el script desde el cual deseas ejecutarlo.
 2. Importa el archivo en tu código y llama a la función deseada.
+
+El código puede probarse con la imagen del gel subida al repositorio llamada ![electro_gel_test](electro_gel_test.png).
+
 ### Ejemplo básico de uso:
 ```bash
 import EG_Analysis as eg
