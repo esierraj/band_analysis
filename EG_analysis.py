@@ -1,4 +1,3 @@
-from PIL import Image, ImageEnhance
 import cv2
 import numpy as np
 import random
@@ -8,6 +7,8 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
 import cv2
+
+print('Paquete EG_analysis importado correctamente')
 
 # Función para cargr imagenes de geles de electroforesis en formato png
 def open_cv2_image(ruta_imagen, escala_grises=False):
@@ -294,8 +295,8 @@ def get_calib_param(ladder, ladder_exp, ruta_imagen):
     # Graficar los datos originales y la curva ajustada
     plt.scatter(x_data, y_data, label="Datos", color="red")
     plt.plot(x_fit, y_fit, label=f"Ajuste: y = {a_opt:.4f}x^2 + {b_opt:.4f}x + {c_opt:.4f}", color="blue")
-    plt.xlabel("Marcador de peso molecular teórico")
-    plt.ylabel("Marcador de peso molecular experimental")
+    plt.xlabel("Marcador de peso molecular teórico (bp)")
+    plt.ylabel("Marcador de peso molecular experimental (bp)")
     plt.legend()
     plt.grid()
 
