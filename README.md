@@ -30,8 +30,8 @@ Para instalar el paquete con pip:
 pip install band_analysis
 ```
 
-- En caso de no poder instalarlo con pip, deberá descargarse el módulo `EG_analysis.py` y colocarlo en el mismo directorio que el script desde el cual deseas ejecutarlo.
-- Se recomienda instalar el paquete en un entorno virtual para evitar conflictos de versiones, ya que al instalar `band_analysis` mediante pip, automáticamente se descargará la versión 1.26.4 de NumPy
+- En caso de no poder hacer la instalación mediante pip, deberá descargarse el módulo `EG_analysis.py` y colocarlo en el mismo directorio que el script desde el cual deseas ejecutarlo.
+- Se recomienda instalar el paquete en un entorno virtual para evitar conflictos de versiones, ya que al instalar `band_analysis` mediante pip, automáticamente se descargará la versión 1.26.4 de NumPy.
 
 ### Ejemplo básico de uso:
 ```bash
