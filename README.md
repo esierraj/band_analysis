@@ -21,7 +21,7 @@ El paquete `band_analysis` está compuesto por el módulo llamado `EG_analysis`,
 - `get_calib_param`: función para realizar una regresión cuadrática a partir de la distribución de bandas en el marcador de peso molecular.
 - `assign_mol_wei`: función para marcar cada banda con su peso molecular aproximado.
 
-Cada función dentro del paquete está titulada con su propósito y contiene la descripción de las variables de entrada y salida.
+En el repositorio se incluye el archivo [documentation.md](documentation.md), que aporta una descripción breve de cada función, así como de sus variables de entrada y salida.
 
 ## Instalación y uso
 
