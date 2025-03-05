@@ -32,6 +32,7 @@ pip install band_analysis
 
 - En caso de no poder hacer la instalación mediante pip, deberá descargarse el módulo `EG_analysis.py` y colocarlo en el mismo directorio que el script desde el cual deseas ejecutarlo.
 - Se recomienda instalar el paquete en un entorno virtual para evitar conflictos de versiones, ya que al instalar `band_analysis` mediante pip, automáticamente se descargará la versión 1.26.4 de NumPy.
+- El código puede probarse con la imagen del gel subida al repositorio llamada [electro_gel_test.png](electro_gel_test.png).
 
 ### Ejemplo básico de uso:
 ```bash
