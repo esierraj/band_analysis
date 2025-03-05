@@ -9,6 +9,10 @@ Este paquete en Python permite el análisis de imágenes de electroforesis en ge
 - Identificación de carriles y asignación automática del peso molecular aproximado de cada banda.
 - Construcción automática de dataframes para análisis masivo de datos de imagen de geles de electroforesis.
 
+## Paquete y módulo
+
+El paquete `band_analysis` está compuesto por el módulo llamado `EG_analysis`, que contiene todas las funciones necesarias para el análisis.
+
 ## Funciones principales
 - `interactive_image`: función para generar una matriz interactiva que muestre el peso molecular aproximado de bandas seleccionadas con el ratón.
 - `excel_band_results`: función para generar un dataframe y archivo en excel con el peso molecular aproximado de cada banda, en cada uno de los carriles identificados.
@@ -21,14 +25,16 @@ Cada función dentro del paquete está titulada con su propósito y contiene la 
 
 ## Instalación y uso
 
-1. Descarga el archivo EG_analysis.py y colócalo en el mismo directorio que el script desde el cual deseas ejecutarlo.
-2. Importa el archivo en tu código y llama a la función deseada.
+Para instalar el paquete con pip:
+```bash
+pip install band_analysis
+```
 
-El código puede probarse con la imagen del gel subida al repositorio llamada [electro_gel_test](electro_gel_test.png).
+En caso de no poder instalarlo con pip, deberá descargarse el módulo `EG_analysis.py` y colocarlo en el mismo directorio que el script desde el cual deseas ejecutarlo.
 
 ### Ejemplo básico de uso:
 ```bash
-import EG_Analysis as eg
+from band_analysis import EG_Analysis as eg
 
 ruta_imagen = "ruta/al/archivo.png"
 imagen_PAGE = eg.open_cv2_image(ruta_imagen, escala_grises=False)
